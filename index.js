@@ -11,7 +11,7 @@ var router = express.Router();
 
 router.get('/whoami', function(req, res) {
 	res.json({
-		ipadress: req.headers['x-forwarded-for'] || req.connection.remoteAddress, 
+		ipaddress: req.headers['x-forwarded-for'] || req.connection.remoteAddress, 
 		language: req.headers['accept-language'].slice(0,5), 
 		software: req.headers['user-agent'].match(/\(([^)]+)\)/)[1]
 	});
