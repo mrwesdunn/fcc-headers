@@ -1,0 +1,19 @@
+{
+  "name": "fcc-headers",
+  "version": "1.0.0",
+  "description": "express app to display user-agent details in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:mrwesdunn/fcc-headers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
